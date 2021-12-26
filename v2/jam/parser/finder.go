@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/AlisonOSouza/packr/v2/plog"
 	"github.com/karrick/godirwalk"
 	"github.com/markbates/errx"
 	"github.com/markbates/oncer"
@@ -68,7 +68,7 @@ func (fd *finder) findAllGoFilesImports(dir string) ([]string, error) {
 		}
 
 		pkg, err := ctx.ImportDir(dir, 0)
-		if strings.HasPrefix(pkg.ImportPath, "github.com/gobuffalo/packr") {
+		if strings.HasPrefix(pkg.ImportPath, "github.com/AlisonOSouza/packr") {
 			return
 		}
 

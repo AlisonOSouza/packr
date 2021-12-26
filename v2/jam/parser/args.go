@@ -13,7 +13,7 @@ import (
 		"log"
 		"os"
 
-		"github.com/gobuffalo/packr/v2/jam/parser"
+		"github.com/AlisonOSouza/packr/v2/jam/parser"
 		"github.com/markbates/s3packr/s3packr"
 	)
 

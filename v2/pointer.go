@@ -1,9 +1,9 @@
 package packr
 
 import (
-	"github.com/gobuffalo/packr/v2/file"
-	"github.com/gobuffalo/packr/v2/file/resolver"
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/AlisonOSouza/packr/v2/file"
+	"github.com/AlisonOSouza/packr/v2/file/resolver"
+	"github.com/AlisonOSouza/packr/v2/plog"
 )
 
 // Pointer is a resolvr which resolves

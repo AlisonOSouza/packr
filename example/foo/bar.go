@@ -1,6 +1,6 @@
 package foo
 
-import "github.com/gobuffalo/packr"
+import "github.com/AlisonOSouza/packr"
 
 func init() {
 	packr.NewBox("../assets")

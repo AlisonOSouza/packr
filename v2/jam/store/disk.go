@@ -17,14 +17,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gobuffalo/packr/v2/internal"
+	"github.com/AlisonOSouza/packr/v2/internal"
 	"github.com/karrick/godirwalk"
 
-	"github.com/gobuffalo/packr/v2/file/resolver/encoding/hex"
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/AlisonOSouza/packr/v2/file/resolver/encoding/hex"
+	"github.com/AlisonOSouza/packr/v2/plog"
 	"github.com/rogpeppe/go-internal/modfile"
 
-	"github.com/gobuffalo/packr/v2/jam/parser"
+	"github.com/AlisonOSouza/packr/v2/jam/parser"
 	"golang.org/x/sync/errgroup"
 )
 

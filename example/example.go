@@ -1,7 +1,7 @@
 package example
 
 import (
-	"github.com/gobuffalo/packr"
+	"github.com/AlisonOSouza/packr"
 )
 
 var a = packr.NewBox("./foo")

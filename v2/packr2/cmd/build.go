@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/gobuffalo/packr/v2/jam"
+	"github.com/AlisonOSouza/packr/v2/jam"
 	"github.com/spf13/cobra"
 )
 
