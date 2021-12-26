@@ -1,7 +1,7 @@
 package store
 
 import (
-	"github.com/gobAlisonOSouzauffalo/packr/v2/jam/parser"
+	"github.com/AlisonOSouza/packr/v2/jam/parser"
 )
 
 type Store interface {
