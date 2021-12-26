@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gobuffalo/packr/builder"
+	"github.com/AlisonOSouza/packr/builder"
 	"github.com/spf13/cobra"
 )
 
